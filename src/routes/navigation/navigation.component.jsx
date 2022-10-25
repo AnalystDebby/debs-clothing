@@ -3,7 +3,7 @@ import { Outlet, Link } from "react-router-dom";
 import { ReactComponent as CrwnLogo } from "../../assets/crown.svg";
 import "../navigation/navigation.styles.scss";
 
-const Navigation = () => {
+export const Navigation = () => {
   return (
     <Fragment>
       <div className="navigation">
@@ -23,5 +23,3 @@ const Navigation = () => {
     </Fragment>
   );
 };
-
-export default Navigation;
